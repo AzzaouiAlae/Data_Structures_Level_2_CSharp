@@ -1,0 +1,14 @@
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/100_General_Tree/FamilyTree/bin/Debug/net9.0/FamilyTree
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/100_General_Tree/FamilyTree/bin/Debug/net9.0/FamilyTree.deps.json
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/100_General_Tree/FamilyTree/bin/Debug/net9.0/FamilyTree.runtimeconfig.json
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/100_General_Tree/FamilyTree/bin/Debug/net9.0/FamilyTree.dll
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/100_General_Tree/FamilyTree/bin/Debug/net9.0/FamilyTree.pdb
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/100_General_Tree/FamilyTree/obj/Debug/net9.0/FamilyTree.GeneratedMSBuildEditorConfig.editorconfig
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/100_General_Tree/FamilyTree/obj/Debug/net9.0/FamilyTree.AssemblyInfoInputs.cache
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/100_General_Tree/FamilyTree/obj/Debug/net9.0/FamilyTree.AssemblyInfo.cs
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/100_General_Tree/FamilyTree/obj/Debug/net9.0/FamilyTree.csproj.CoreCompileInputs.cache
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/100_General_Tree/FamilyTree/obj/Debug/net9.0/FamilyTree.dll
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/100_General_Tree/FamilyTree/obj/Debug/net9.0/refint/FamilyTree.dll
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/100_General_Tree/FamilyTree/obj/Debug/net9.0/FamilyTree.pdb
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/100_General_Tree/FamilyTree/obj/Debug/net9.0/FamilyTree.genruntimeconfig.cache
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/100_General_Tree/FamilyTree/obj/Debug/net9.0/ref/FamilyTree.dll

@@ -1,0 +1,14 @@
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/CodinGame/CodinGame/bin/Debug/net9.0/CodinGame
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/CodinGame/CodinGame/bin/Debug/net9.0/CodinGame.deps.json
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/CodinGame/CodinGame/bin/Debug/net9.0/CodinGame.runtimeconfig.json
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/CodinGame/CodinGame/bin/Debug/net9.0/CodinGame.dll
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/CodinGame/CodinGame/bin/Debug/net9.0/CodinGame.pdb
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/CodinGame/CodinGame/obj/Debug/net9.0/CodinGame.GeneratedMSBuildEditorConfig.editorconfig
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/CodinGame/CodinGame/obj/Debug/net9.0/CodinGame.AssemblyInfoInputs.cache
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/CodinGame/CodinGame/obj/Debug/net9.0/CodinGame.AssemblyInfo.cs
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/CodinGame/CodinGame/obj/Debug/net9.0/CodinGame.csproj.CoreCompileInputs.cache
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/CodinGame/CodinGame/obj/Debug/net9.0/CodinGame.dll
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/CodinGame/CodinGame/obj/Debug/net9.0/refint/CodinGame.dll
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/CodinGame/CodinGame/obj/Debug/net9.0/CodinGame.pdb
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/CodinGame/CodinGame/obj/Debug/net9.0/CodinGame.genruntimeconfig.cache
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/CodinGame/CodinGame/obj/Debug/net9.0/ref/CodinGame.dll

@@ -1,0 +1,14 @@
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/101_Binary_Tree/Binary_Tree/bin/Debug/net9.0/Binary_Tree
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/101_Binary_Tree/Binary_Tree/bin/Debug/net9.0/Binary_Tree.deps.json
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/101_Binary_Tree/Binary_Tree/bin/Debug/net9.0/Binary_Tree.runtimeconfig.json
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/101_Binary_Tree/Binary_Tree/bin/Debug/net9.0/Binary_Tree.dll
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/101_Binary_Tree/Binary_Tree/bin/Debug/net9.0/Binary_Tree.pdb
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/101_Binary_Tree/Binary_Tree/obj/Debug/net9.0/Binary_Tree.GeneratedMSBuildEditorConfig.editorconfig
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/101_Binary_Tree/Binary_Tree/obj/Debug/net9.0/Binary_Tree.AssemblyInfoInputs.cache
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/101_Binary_Tree/Binary_Tree/obj/Debug/net9.0/Binary_Tree.AssemblyInfo.cs
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/101_Binary_Tree/Binary_Tree/obj/Debug/net9.0/Binary_Tree.csproj.CoreCompileInputs.cache
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/101_Binary_Tree/Binary_Tree/obj/Debug/net9.0/Binary_Tree.dll
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/101_Binary_Tree/Binary_Tree/obj/Debug/net9.0/refint/Binary_Tree.dll
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/101_Binary_Tree/Binary_Tree/obj/Debug/net9.0/Binary_Tree.pdb
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/101_Binary_Tree/Binary_Tree/obj/Debug/net9.0/Binary_Tree.genruntimeconfig.cache
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/101_Binary_Tree/Binary_Tree/obj/Debug/net9.0/ref/Binary_Tree.dll
