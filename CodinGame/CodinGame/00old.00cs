@@ -1,0 +1,1051 @@
+using System;
+using System.Linq;
+using System.IO;
+using System.Text;
+using System.Collections;
+using System.Collections.Generic;
+
+public abstract class TYPES 
+{
+    public static Dictionary<string, TYPES> TYPES_List = new();
+    public int x {get; set;}
+    public int y {get; set;}
+    public int owner {get; set;}
+}
+
+public abstract class myTYPES : TYPES 
+{
+    public abstract void print();
+
+    public int RootId {get; set;}
+
+    public static bool is_possible_move(int x, int y, bool is_typeA = false)
+    {
+        string xy = $"{x},{y}";
+        
+        if(ROOT.exist(xy))
+            return false;
+        if(WALL.exist(xy))
+            return false;
+        if(typeA.exist(xy))
+            return is_typeA;
+        if(Basic.exist(xy))
+            return false;
+        if(Enemy.Enemy_List.ContainsKey(xy))
+            return false;
+        if(HARVESTER.HARVESTER_List.ContainsKey(xy))
+            return false;
+        if(TENTACLE.TENTACLE_List.ContainsKey(xy))
+            return false;
+        if(SPORE.MySPORE_List.ContainsKey(xy))
+            return false;
+        return true;
+    }
+
+    static void Move_x(TYPES_id root, TYPES dest, ref int path_size)
+    {
+        int last_move_x = root.x;
+        int move_x = root.x < dest.x ? 1 : root.x == dest.x ? 0 : -1;
+        
+        while(last_move_x != dest.x)
+        {
+            if(is_possible_move(last_move_x + move_x, root.y, dest is typeA))
+            {
+                last_move_x += move_x;
+                path_size++;
+            }
+            else 
+            {
+                path_size = -1;
+                break;
+            }
+        }
+    }
+
+    static void Move_Y(TYPES_id root, TYPES dest, ref int path_size)
+    {
+        int last_move_y = root.y;
+        int move_y = root.y < dest.y ? 1 : root.y == dest.y ? 0 : -1;
+
+        while(last_move_y != dest.y)
+        {
+            if(is_possible_move(root.x, last_move_y + move_y, dest is typeA))
+            {
+                last_move_y += move_y;
+                path_size++;
+            }
+            else
+            {
+                path_size = -1;
+                break;
+            }
+        }
+    }
+
+    public static int find_path(TYPES_id root, TYPES dest)
+    {
+        int path_size = 0;
+        
+        Move_x(root, dest, ref path_size);
+        if(path_size == -1)
+            return path_size;
+        Move_Y(root, dest, ref path_size);
+
+        return path_size;
+    }
+}
+
+public abstract class TYPES_id : myTYPES
+{
+    public int id {get; set;}
+
+    public static Dictionary<string, TYPES_id> type_id_List = new();
+
+    public static bool exist(string xy)
+    {
+        return type_id_List.ContainsKey(xy);
+    }
+}
+
+public class typeA : myTYPES
+{
+    public bool has_HARVESTER 
+    {
+        get => check_HARVESTER();
+    }
+
+    public static Dictionary<string, typeA> typeA_List = new();
+
+    public static bool exist(string xy)
+    {
+        return typeA_List.ContainsKey(xy);
+    }
+
+    public override void print()
+    {
+        Console.WriteLine($" {x} {y} BASIC");
+    }
+
+    bool check_HARVESTER()
+    {
+        if(HARVESTER.HARVESTER_List.ContainsKey($"{x-1},{y}"))
+        {
+            if(HARVESTER.HARVESTER_List[$"{x-1},{y}"].dir == "E")
+                return true;
+        }
+        else if(HARVESTER.HARVESTER_List.ContainsKey($"{x+1},{y}"))
+        {
+            if(HARVESTER.HARVESTER_List[$"{x+1},{y}"].dir == "W")
+                return true;
+        }
+        else if(HARVESTER.HARVESTER_List.ContainsKey($"{x},{y+1}"))
+        {
+            if(HARVESTER.HARVESTER_List[$"{x},{y+1}"].dir == "N")
+                return true;
+        }
+        else if(HARVESTER.HARVESTER_List.ContainsKey($"{x},{y-1}"))
+        {
+            if(HARVESTER.HARVESTER_List[$"{x},{y-1}"].dir == "S")
+                return true;
+        }
+        return false;
+    }
+
+    public typeA(int x, int y)
+    {
+        this.x = x;
+        this.y = y;
+        owner = -1;
+
+        TYPES_List.Add($"{x},{y}", this);
+        typeA_List.Add($"{x},{y}", this);
+    }
+
+    public static bool find_typeA(ref TYPES_id start_id, ref myTYPES move_to, ref int path_len, ref int new_size)
+    {
+        bool result = false;
+        
+        foreach( KeyValuePair<string, TYPES_id> t_id in TYPES_id.type_id_List)
+        {
+            if(t_id.Value is ROOT && ((ROOT)t_id.Value).is_used)
+                continue;
+            foreach( KeyValuePair<string, typeA> A in typeA.typeA_List)
+            {
+                if(A.Value.has_HARVESTER)
+                    continue;
+                new_size = find_path(t_id.Value, A.Value);
+                if(new_size != -1 && new_size < path_len)
+                {
+                    start_id = t_id.Value;
+                    move_to = A.Value;
+                    path_len = new_size;
+                    result = true;
+                }
+            }
+        }
+        return result;
+    }
+}
+
+public class ROOT : TYPES_id
+{
+    public static Dictionary<string, ROOT> MyROOT_List = new();
+
+    public override void print()
+    {
+        is_used = true;
+        if(id != -1)
+        {
+            Console.Write($"GROW {id}");
+        }
+        else
+            Console.WriteLine($" {x} {y}");
+    }
+
+    public static new bool exist(string xy)
+    {
+        return MyROOT_List.ContainsKey(xy);
+    }
+
+    public ROOT(int x, int y, int organId)
+    {
+        this.x = x;
+        this.y = y;
+        id = organId;
+        owner = 1;
+        is_used = false;
+        RootId = id; 
+
+        TYPES_List.Add($"{x},{y}", this);
+        MyROOT_List.Add($"{x},{y}", this);
+        type_id_List.Add($"{x},{y}", this);
+    }
+
+    public bool is_used = false;
+
+    public static bool is_root_id_used(int id)
+    {
+        foreach(KeyValuePair<string, ROOT> r in ROOT.MyROOT_List)
+        {
+            if(r.Value.id == id)
+                return r.Value.is_used;
+        }
+        return false;
+    }
+
+    public static void root_id_used(int id)
+    {
+        ROOT R = null;
+        foreach(KeyValuePair<string, ROOT> r in ROOT.MyROOT_List)
+        {
+            if(r.Value.id == id)
+            {
+                R = r.Value;
+                break;
+            }
+        }
+        if(R is not null)
+            R.is_used = true;
+    }
+}
+
+public class Basic : TYPES_id
+{
+    public static Dictionary<string, Basic> MyBasic_List = new();
+
+    public override void print()
+    {
+        ROOT.root_id_used(RootId);
+        Console.Write($"GROW {id}");
+    }
+
+    public static new bool exist(string xy)
+    {
+        return MyBasic_List.ContainsKey(xy);
+    }
+    
+    public Basic(int x, int y, int organId, int rootId)
+    {
+        this.x = x;
+        this.y = y;
+        id = organId;
+        owner = 1;
+        RootId = rootId;
+
+        TYPES_List.Add($"{x},{y}", this);
+        MyBasic_List.Add($"{x},{y}", this);
+        type_id_List.Add($"{x},{y}", this);
+    }
+}
+
+public class WALL : TYPES
+{
+    public static Dictionary<string, WALL> WALL_List = new();
+
+    public static bool exist(string xy)
+    {
+        return WALL_List.ContainsKey(xy);
+    }
+
+    public WALL(int x, int y)
+    {
+        this.x = x;
+        this.y = y;
+        owner = 0;
+
+        WALL_List.Add($"{x},{y}", this);
+    }
+}
+
+public class OtherType : myTYPES
+{
+    public static Dictionary<string, OtherType> OtherType_List = new();
+
+    public static bool exist(string xy)
+    {
+        return OtherType_List.ContainsKey(xy);
+    }
+
+    public override void print()
+    {
+        Console.WriteLine($" {x} {y} BASIC");
+    }
+
+    public OtherType(int x, int y, int owner, int rootId)
+    {
+        this.x = x;
+        this.y = y;
+        this.owner = owner;
+        RootId = rootId;
+
+        TYPES_List[$"{x},{y}"] = this;
+        OtherType_List[$"{x},{y}"] = this;
+    }
+
+    public static bool find_OtherType(ref TYPES_id start_id, ref myTYPES move_to, bool use_other_base = false)
+    {
+        foreach( KeyValuePair<string, TYPES_id> t_id in TYPES_id.type_id_List)
+        {
+            if(ROOT.is_root_id_used(t_id.Value.RootId) || (!use_other_base && !(t_id.Value is ROOT || t_id.Value is Basic)) )
+                continue;
+            OtherType o;
+            if(is_possible_move(t_id.Value.x + 1, t_id.Value.y))
+            {
+                o = new OtherType(t_id.Value.x + 1, t_id.Value.y, -1, -1);
+                if(find_path(t_id.Value, o) > 0)
+                {
+                    start_id = t_id.Value;
+                    move_to = o;
+                    return true;
+                }
+            }
+            if(is_possible_move(t_id.Value.x - 1, t_id.Value.y))
+            {
+                o = new OtherType(t_id.Value.x - 1, t_id.Value.y, -1, -1 );
+                if(find_path(t_id.Value, o) > 0)
+                {
+                    start_id = t_id.Value;
+                    move_to = o;
+                    return true;
+                }
+            }
+            if(is_possible_move(t_id.Value.x, t_id.Value.y + 1))
+            {
+                o = new OtherType(t_id.Value.x, t_id.Value.y + 1, -1, -1);
+                if(find_path(t_id.Value, o) > 0)
+                {
+                    start_id = t_id.Value;
+                    move_to = o;
+                    return true;
+                }
+            }
+            if(is_possible_move(t_id.Value.x, t_id.Value.y - 1))
+            {
+                o = new OtherType(t_id.Value.x, t_id.Value.y - 1, -1, -1);
+                if(find_path(t_id.Value, o) > 0)
+                {
+                    start_id = t_id.Value;
+                    move_to = o;
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+}
+
+public class Move_result
+{
+    public TYPES_id start_id;
+
+    public myTYPES move_to;
+
+    int path_len = 2147483647;
+
+    int new_size;
+
+    int number_of_moves_have;
+    
+    static int for_test = 0;
+    
+    void find_move()
+    {
+        for_test++;
+        if(protein_stock.for_ROOT && SPORE.find_move2(ref start_id, ref move_to)) {
+            protein_stock.ROOT_created();
+            return;}
+        if(protein_stock.for_SPORER && SPORE.find_move1(ref start_id, ref move_to)) {
+            protein_stock.SPORER_created();
+            return;}
+        if(protein_stock.C > 0 && protein_stock.D > 0 && HARVESTER.find_HARVESTER_move(ref start_id, ref move_to)){
+            return;}
+        if(protein_stock.A > 0 && typeA.find_typeA(ref start_id, ref move_to, ref path_len, ref new_size)) {
+            return;}
+        if(protein_stock.C > 0 && protein_stock.B > 0 && TENTACLE.find_TENTACLE_move(ref start_id, ref move_to)){
+            return;}
+        if(protein_stock.A > 0 && OtherType.find_OtherType(ref start_id, ref move_to)) {
+            return;}
+        if(protein_stock.C > 0 && protein_stock.B > 0 && TENTACLE.find_final_move(ref start_id, ref move_to)){
+            return;}
+        if(protein_stock.C > 0 && protein_stock.D > 0 && HARVESTER.find_any_move(ref start_id, ref move_to)) {
+            return;}
+        if(protein_stock.A > 0 && OtherType.find_OtherType(ref start_id, ref move_to, true)) {
+            return;}
+        
+    }
+
+    public Move_result()
+    {
+        find_move();
+    }
+}
+
+public class protein_stock
+{
+    public static int A; 
+
+    public static int B;
+
+    public static int C;
+
+    public static int D; 
+
+    public static bool for_SPORER 
+    {
+        get {
+            if(B > 0 && D > 0 && for_ROOT)
+                return true;
+            else
+                return false;
+        }
+    }
+    
+    public static bool for_ROOT 
+    {
+        get {
+            if(A > 0 && B > 0 && C > 0 && D > 0)
+                return true;
+            else
+                return false;
+        }
+    }
+    
+    public static void SPORER_created()
+    {
+        B--;
+        D--;
+    }
+
+    public static void ROOT_created()
+    {
+        A--;
+        B--;
+        C--;
+        D--;
+    }
+} 
+
+public class entitys
+{
+    public static void add_entity(int x, int y, string type, int owner, int organId, string organDir, int organParentId, int organRootId)
+    {
+        OtherType o;
+        ROOT r;
+        Basic b;
+        HARVESTER h;
+        TENTACLE t;
+        Enemy e;
+        SPORE s;
+        /*switch (type)
+        {
+            case "A":
+                typeA a = new(x, y);
+                break;
+            case "WALL":
+                WALL w = new(x, y);
+                break;
+            case "ROOT":
+                if(owner == 1)
+                    r = new(x, y, organId);
+                else
+                    e = new(x, y, owner);
+                break;
+            case "BASIC":
+                if(owner == 1)
+                    b = new(x, y, organId, organRootId);
+                else
+                    e = new(x, y, owner);
+                break;
+            case "HARVESTER":
+                if(owner == 1)
+                    h = new(organId, x, y, organDir, organRootId);
+                else
+                    e = new(x, y, owner);
+                break;
+            case "TENTACLE":
+                if(owner == 1)
+                    t = new(organId, x, y, organDir, organRootId);
+                else
+                    e = new(x, y, owner);
+                break;
+            case "SPORER":
+                if(owner == 1)
+                    s = new(organId, x, y, organDir, organRootId);
+                else
+                    e = new(x, y, owner);
+                break;
+            default:
+                o = new(x, y, owner, organRootId);
+                break;
+        }*/
+        Console.Write($"{x} {y} {type} {owner} {organId} {organDir} {organParentId} {organRootId}\\n");
+    }
+
+    public static void clear_all()
+    {
+        TYPES.TYPES_List.Clear();
+        TYPES_id.type_id_List.Clear();
+        typeA.typeA_List.Clear();
+        ROOT.MyROOT_List.Clear();
+        Basic.MyBasic_List.Clear();
+        OtherType.OtherType_List.Clear();
+        WALL.WALL_List.Clear();
+        HARVESTER.HARVESTER_List.Clear();
+        TENTACLE.TENTACLE_List.Clear();
+        Enemy.Enemy_List.Clear();
+        SPORE.MySPORE_List.Clear();
+    }
+
+    public static void set_protein_stock(int a, int b, int c, int d)
+    {
+        protein_stock.A = a;
+        protein_stock.B = b;
+        protein_stock.C = c;
+        protein_stock.D = d;
+        Console.Write($"\\n{a} {b} {c} {d}");
+    }
+}
+
+public class HARVESTER : TYPES_id
+{
+    public static Dictionary<string, HARVESTER> HARVESTER_List = new();
+
+    public string dir {get; set;}
+
+    public override void print()
+    {
+        if(id == -1)
+            Console.WriteLine($" {x} {y} HARVESTER {dir}");
+        else
+        {
+            ROOT.root_id_used(RootId);
+            Console.Write($"GROW {id}");
+        }
+    }
+
+    public HARVESTER(int id, int x, int y, string dir, int rootId = -1)
+    {
+        this.id = id;
+        this.x = x;
+        this.y = y;
+        this.dir = dir;
+        RootId = rootId;
+
+        HARVESTER_List[$"{x},{y}"] = this;
+        TYPES_id.type_id_List[$"{x},{y}"] = this;
+    }
+
+    public static bool find_HARVESTER_move(ref TYPES_id start_id, ref myTYPES move_to)
+    {
+        foreach( KeyValuePair<string, typeA> A in typeA.typeA_List)
+        {
+            if(A.Value.has_HARVESTER)
+                continue;
+            foreach(KeyValuePair<string, TYPES_id> t_id in TYPES_id.type_id_List)
+            {
+                if(!ROOT.is_root_id_used(t_id.Value.RootId) && (t_id.Value is ROOT || t_id.Value is Basic))
+                {
+                    if(find_path(t_id.Value, A.Value) == 2)
+                    {
+                        if(is_possible_move(t_id.Value.x + 1, A.Value.y) && t_id.Value.x + 2  == A.Value.x)
+                            move_to = new HARVESTER(-1, t_id.Value.x + 1, t_id.Value.y, "E");
+
+                        else if(is_possible_move(t_id.Value.x - 1, A.Value.y) && t_id.Value.x - 2  == A.Value.x)
+                            move_to = new HARVESTER(-1, t_id.Value.x - 1, t_id.Value.y, "W");
+
+                        else if(is_possible_move(A.Value.x, t_id.Value.y + 1) && t_id.Value.y + 2  == A.Value.y)
+                            move_to = new HARVESTER(-1, t_id.Value.x, t_id.Value.y + 1, "S");
+
+                        else if(is_possible_move(A.Value.x, t_id.Value.y - 1) && t_id.Value.y - 2  == A.Value.y)
+                            move_to = new HARVESTER(-1, t_id.Value.x, t_id.Value.y - 1, "N");
+                        
+                        else if(is_possible_move(t_id.Value.x + 1, t_id.Value.y) && t_id.Value.x + 1  == A.Value.x)
+                        {
+                            if(t_id.Value.y > A.Value.y)
+                                move_to = new HARVESTER(-1, t_id.Value.x + 1, t_id.Value.y, "N");
+                            else 
+                                move_to = new HARVESTER(-1, t_id.Value.x + 1, t_id.Value.y, "S");
+                        }
+                        else if(is_possible_move(t_id.Value.x - 1, t_id.Value.y) && t_id.Value.x - 1  == A.Value.x)
+                        {
+                            if(t_id.Value.y > A.Value.y)
+                                move_to = new HARVESTER(-1, t_id.Value.x - 1, t_id.Value.y, "N");
+                            else 
+                                move_to = new HARVESTER(-1, t_id.Value.x - 1, t_id.Value.y, "S");
+                        }
+                        start_id = t_id.Value;
+                        return true;
+                    }
+                }
+            }
+        }
+        return false;
+    }
+
+    public static bool find_any_move(ref TYPES_id start_id, ref myTYPES move_to)
+    {
+        foreach(KeyValuePair<string, TYPES_id> t_id in TYPES_id.type_id_List)
+        {
+            if(ROOT.is_root_id_used(t_id.Value.RootId))
+                continue;
+            if(is_possible_move(t_id.Value.x + 1, t_id.Value.y)){
+                move_to = new HARVESTER(-1, t_id.Value.x + 1, t_id.Value.y, "E");
+                start_id = t_id.Value;
+                return true;
+            }
+
+            else if(is_possible_move(t_id.Value.x - 1, t_id.Value.y)) {
+                move_to = new HARVESTER(-1, t_id.Value.x - 1, t_id.Value.y, "W");
+                start_id = t_id.Value;
+                return true;
+            }
+
+            else if(is_possible_move(t_id.Value.x, t_id.Value.y + 1)){
+                move_to = new HARVESTER(-1, t_id.Value.x, t_id.Value.y + 1, "S");
+                start_id = t_id.Value;
+                return true;
+            }
+
+            else if(is_possible_move(t_id.Value.x, t_id.Value.y - 1)){
+                move_to = new HARVESTER(-1, t_id.Value.x, t_id.Value.y - 1, "N");
+                start_id = t_id.Value;
+                return true;
+            }
+        }
+
+        return false;
+    }
+}
+
+public class TENTACLE : TYPES_id
+{
+    public static Dictionary<string, TENTACLE> TENTACLE_List = new();
+
+    public string dir {get; set;}
+
+    public override void print()
+    {
+        if(id == -1)
+            Console.WriteLine($" {x} {y} TENTACLE {dir}");
+        else
+        {
+            ROOT.root_id_used(RootId);
+            Console.Write($"GROW {id}");
+        }
+    }
+
+    public TENTACLE(int id, int x, int y, string dir, int rootId = -1)
+    {
+        this.id = id;
+        this.x = x;
+        this.y = y;
+        this.dir = dir;
+        RootId = rootId;
+
+        TENTACLE_List[$"{x},{y}"] = this;
+        TYPES_id.type_id_List[$"{x},{y}"] = this;
+    }
+
+    static bool try_move(int x, int y, int plus_x, int plus_y, bool two_moves = false)
+    {
+        if(plus_x != 0)
+        {
+            if(is_possible_move(x + plus_x, y) && is_possible_move(x + plus_x * 2, y) && (two_moves || is_possible_move(x + plus_x * 3, y)) && (two_moves || is_possible_move(x + plus_x * 4, y)))
+                return true;
+        }
+        if(plus_y != 0)
+        {
+            if(is_possible_move(x, y + plus_y) && is_possible_move(x, y + plus_y * 2) && (two_moves || is_possible_move(x, y + plus_y * 3)) && (two_moves || is_possible_move(x, y + plus_y * 4)))  
+                return true;
+        }
+
+        return false;
+    }
+    
+    public static bool find_TENTACLE_move(ref TYPES_id start_id, ref myTYPES move_to, bool use_other_base = false)
+    {
+        foreach( KeyValuePair<string, Enemy> E in Enemy.Enemy_List)
+        {
+            if(E.Value.has_TENTACLE)
+                continue;
+            foreach(KeyValuePair<string, TYPES_id> t_id in TYPES_id.type_id_List)
+            {
+                if(ROOT.is_root_id_used(t_id.Value.RootId))
+                    continue;
+                if(!use_other_base && !(t_id.Value is ROOT || t_id.Value is Basic))
+                    continue;
+                if(try_move(t_id.Value.x, t_id.Value.y, 1, 0) && t_id.Value.x + 4 == E.Value.x && t_id.Value.y == E.Value.y){
+                    move_to = new TENTACLE(-1, t_id.Value.x + 1, t_id.Value.y, "E");
+                    start_id = t_id.Value;
+                    return true;
+                }
+
+                else if(try_move(t_id.Value.x, t_id.Value.y, -1, 0) && t_id.Value.x - 4  == E.Value.x && t_id.Value.y == E.Value.y){
+                    move_to = new TENTACLE(-1, t_id.Value.x - 1, t_id.Value.y, "W");
+                    start_id = t_id.Value;
+                    return true;
+                }
+
+                else if(try_move(t_id.Value.x, t_id.Value.y, 0, 1) && t_id.Value.y + 4  == E.Value.y && t_id.Value.x == E.Value.x){
+                    move_to = new TENTACLE(-1, t_id.Value.x, t_id.Value.y + 1, "S");
+                    start_id = t_id.Value;
+                    return true;
+                }
+
+                else if(try_move(t_id.Value.x, t_id.Value.y, 0, -1) && t_id.Value.y - 4  == E.Value.y && t_id.Value.x == E.Value.x){
+                    move_to = new TENTACLE(-1, t_id.Value.x, t_id.Value.y - 1, "N");
+                    start_id = t_id.Value;
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    public static bool find_final_move(ref TYPES_id start_id, ref myTYPES move_to)
+    {
+        foreach( KeyValuePair<string, Enemy> E in Enemy.Enemy_List)
+        {
+            if(E.Value.has_TENTACLE)
+                continue;
+            foreach(KeyValuePair<string, TYPES_id> t_id in TYPES_id.type_id_List)
+            {
+                if(ROOT.is_root_id_used(t_id.Value.RootId))
+                    continue;
+                if(try_move(t_id.Value.x, t_id.Value.y, 1, 0, true) && t_id.Value.x + 2 == E.Value.x && t_id.Value.y == E.Value.y){
+                    move_to = new TENTACLE(-1, t_id.Value.x + 1, t_id.Value.y, "E");
+                    start_id = t_id.Value;
+                    return true;
+                }
+
+                else if(try_move(t_id.Value.x, t_id.Value.y, -1, 0, true) && t_id.Value.x - 2  == E.Value.x && t_id.Value.y == E.Value.y){
+                    move_to = new TENTACLE(-1, t_id.Value.x - 1, t_id.Value.y, "W");
+                    start_id = t_id.Value;
+                    return true;
+                }
+
+                else if(try_move(t_id.Value.x, t_id.Value.y, 0, 1, true) && t_id.Value.y + 2  == E.Value.y && t_id.Value.x == E.Value.x){
+                    move_to = new TENTACLE(-1, t_id.Value.x, t_id.Value.y + 1, "S");
+                    start_id = t_id.Value;
+                    return true;
+                }
+
+                else if(try_move(t_id.Value.x, t_id.Value.y, 0, -1, true) && t_id.Value.y - 2  == E.Value.y && t_id.Value.x == E.Value.x){
+                    move_to = new TENTACLE(-1, t_id.Value.x, t_id.Value.y - 1, "N");
+                    start_id = t_id.Value;
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+    
+    public static bool find_any_move(ref TYPES_id start_id, ref myTYPES move_to)
+    {
+        foreach( KeyValuePair<string, Enemy> E in Enemy.Enemy_List)
+        {
+            foreach(KeyValuePair<string, TYPES_id> t_id in TYPES_id.type_id_List)
+            {
+                if(ROOT.is_root_id_used(t_id.Value.RootId))
+                    continue;
+                if(try_move(t_id.Value.x, t_id.Value.y, 1, 0, true) && t_id.Value.x + 2 == E.Value.x && t_id.Value.y == E.Value.y){
+                    move_to = new TENTACLE(-1, t_id.Value.x + 1, t_id.Value.y, "E");
+                    start_id = t_id.Value;
+                    return true;
+                }
+
+                else if(try_move(t_id.Value.x, t_id.Value.y, -1, 0, true) && t_id.Value.x - 2  == E.Value.x && t_id.Value.y == E.Value.y){
+                    move_to = new TENTACLE(-1, t_id.Value.x - 1, t_id.Value.y, "W");
+                    start_id = t_id.Value;
+                    return true;
+                }
+
+                else if(try_move(t_id.Value.x, t_id.Value.y, 0, 1, true) && t_id.Value.y + 2  == E.Value.y && t_id.Value.x == E.Value.x){
+                    move_to = new TENTACLE(-1, t_id.Value.x, t_id.Value.y + 1, "S");
+                    start_id = t_id.Value;
+                    return true;
+                }
+
+                else if(try_move(t_id.Value.x, t_id.Value.y, 0, -1, true) && t_id.Value.y - 2  == E.Value.y && t_id.Value.x == E.Value.x){
+                    move_to = new TENTACLE(-1, t_id.Value.x, t_id.Value.y - 1, "N");
+                    start_id = t_id.Value;
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+}
+
+public class Enemy : TYPES
+{
+    public static Dictionary<string, Enemy> Enemy_List = new();
+
+    public bool has_TENTACLE
+    {
+        get => check_TENTACLE();
+    }
+    
+    bool check_TENTACLE()
+    {
+        if(TENTACLE.TENTACLE_List.ContainsKey($"{x-2},{y}"))
+        {
+            if(TENTACLE.TENTACLE_List[$"{x-2},{y}"].dir == "E")
+                return true;
+        }
+        else if(TENTACLE.TENTACLE_List.ContainsKey($"{x+2},{y}"))
+        {
+            if(TENTACLE.TENTACLE_List[$"{x+2},{y}"].dir == "W")
+                return true;
+        }
+        else if(TENTACLE.TENTACLE_List.ContainsKey($"{x},{y+2}"))
+        {
+            if(TENTACLE.TENTACLE_List[$"{x},{y+2}"].dir == "N")
+                return true;
+        }
+        else if(TENTACLE.TENTACLE_List.ContainsKey($"{x},{y-2}"))
+        {
+            if(TENTACLE.TENTACLE_List[$"{x},{y-2}"].dir == "S")
+                return true;
+        }
+        return false;
+    }
+
+    public Enemy(int x, int y, int owner)
+    {
+        this.x = x;
+        this.y = y;
+        this.owner = owner;
+
+        Enemy_List[$"{x},{y}"] =  this;
+    }
+}
+
+public class SPORE :  TYPES_id
+{
+    public static Dictionary<string, SPORE> MySPORE_List = new();
+
+    public string dir {get; set;}
+
+    public override void print()
+    {
+        if(id != -1)
+        {
+            ROOT.root_id_used(RootId);
+            Console.Write($"SPORE {id}");
+        }
+        else
+            Console.WriteLine($" {x} {y} SPORER {dir}");
+    }
+
+    public static new bool exist(string xy)
+    {
+        return MySPORE_List.ContainsKey(xy);
+    }
+    
+    public SPORE(int organId, int x, int y, string Dir, int rootId)
+    {
+        this.x = x;
+        this.y = y;
+        id = organId;
+        dir = Dir;
+        owner = 1;
+        RootId = rootId;
+
+        TYPES_List.Add($"{x},{y}", this);
+        MySPORE_List.Add($"{x},{y}", this);
+    }
+
+    public SPORE(int x, int y, string Dir)
+    {
+        this.x = x;
+        this.y = y;
+        dir = Dir;
+        id = -1;
+        owner = 1;
+
+        TYPES_List.Add($"{x},{y}", this);
+        MySPORE_List.Add($"{x},{y}", this);
+    }
+
+    public static bool find_move1(ref TYPES_id start_id, ref myTYPES move_to)
+    {
+        int x_result;
+        int y_result;
+        bool dir_is_x;
+        foreach(KeyValuePair<string, typeA> A in typeA.typeA_List)
+        {
+            foreach(KeyValuePair<string, TYPES_id> t_id in TYPES_id.type_id_List)
+            {
+                if(ROOT.is_root_id_used(t_id.Value.RootId))
+                    continue;
+                x_result  = A.Value.x > t_id.Value.x ? A.Value.x - t_id.Value.x : t_id.Value.x - A.Value.x;
+                y_result  = A.Value.y > t_id.Value.y ? A.Value.y - t_id.Value.y : t_id.Value.y - A.Value.y;
+                dir_is_x = x_result >= y_result;
+                if(dir_is_x && A.Value.x > t_id.Value.x && is_possible_move(A.Value.x - 2, A.Value.y))
+                {
+                    start_id = t_id.Value;
+                    move_to = new SPORE(start_id.x + 1, start_id.y, "E");
+                    return true;
+                }
+                if(dir_is_x && A.Value.x < t_id.Value.x && is_possible_move(A.Value.x + 2, A.Value.y))
+                {
+                    start_id = t_id.Value;
+                    move_to = new SPORE(start_id.x - 1, start_id.y, "W");
+                    return true;
+                }
+                if(!dir_is_x && A.Value.y > t_id.Value.y && is_possible_move(A.Value.x, A.Value.y - 2))
+                {
+                    start_id = t_id.Value;
+                    move_to = new SPORE(start_id.x, start_id.y + 1, "S");
+                    return true;
+                }
+                if(!dir_is_x && A.Value.y < t_id.Value.y && is_possible_move(A.Value.x, A.Value.y + 2))
+                {
+                    start_id = t_id.Value;
+                    move_to = new SPORE(start_id.x, start_id.y - 1, "N");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+    
+    public static bool find_move2(ref TYPES_id start_id, ref myTYPES move_to)
+    {
+        int x_result;
+        int y_result;
+        bool dir_is_x;
+        foreach(KeyValuePair<string, typeA> A in typeA.typeA_List)
+        {
+            foreach(KeyValuePair<string, SPORE> t_id in SPORE.MySPORE_List)
+            {
+                if(ROOT.is_root_id_used(t_id.Value.RootId))
+                    continue;
+                x_result  = A.Value.x > t_id.Value.x ? A.Value.x - t_id.Value.x : t_id.Value.x - A.Value.x;
+                y_result  = A.Value.y > t_id.Value.y ? A.Value.y - t_id.Value.y : t_id.Value.y - A.Value.y;
+                dir_is_x = x_result >= y_result;
+                if(dir_is_x && A.Value.x > t_id.Value.x && is_possible_move(A.Value.x - 2, A.Value.y))
+                {
+                    start_id = t_id.Value;
+                    move_to = new ROOT(A.Value.x - 2, start_id.y, -1);
+                    return true;
+                }
+                if(dir_is_x && A.Value.x < t_id.Value.x && is_possible_move(A.Value.x + 2, A.Value.y))
+                {
+                    start_id = t_id.Value;
+                    move_to = new ROOT(A.Value.x + 2, start_id.y, -1);
+                    return true;
+                }
+                if(!dir_is_x && A.Value.y > t_id.Value.y && is_possible_move(A.Value.x, A.Value.y - 2))
+                {
+                    start_id = t_id.Value;
+                    move_to = new ROOT(start_id.x, A.Value.y - 2, -1);
+                    return true;
+                }
+                if(!dir_is_x && A.Value.y < t_id.Value.y && is_possible_move(A.Value.x, A.Value.y + 2))
+                {
+                    start_id = t_id.Value;
+                    move_to = new ROOT(start_id.x, A.Value.y + 2, -1);
+                    return true;
+                }
+            }
+        }
+        
+        return false;
+    }
+}
+
+class Player
+{ 
+    static void Main(string[] args)
+    {
+        string[] inputs;
+        inputs = Console.ReadLine().Split(' ');
+        int width = int.Parse(inputs[0]); // columns in the game grid
+        int height = int.Parse(inputs[1]); // rows in the game grid
+
+        // game loop
+        Console.Write($"{width} {height}\\n");
+        while (true)
+        {
+            int entityCount = int.Parse(Console.ReadLine());
+            for (int i = 0; i < entityCount; i++)
+            {
+                inputs = Console.ReadLine().Split(' ');
+                int x = int.Parse(inputs[0]);
+                int y = int.Parse(inputs[1]); // grid coordinate
+                string type = inputs[2]; // WALL, ROOT, BASIC, TENTACLE, HARVESTER, SPORER, A, B, C, D
+                int owner = int.Parse(inputs[3]); // 1 if your organ, 0 if enemy organ, -1 if neither
+                int organId = int.Parse(inputs[4]); // id of this entity if it's an organ, 0 otherwise
+                string organDir = inputs[5]; // N,E,S,W or X if not an organ
+                int organParentId = int.Parse(inputs[6]);
+                int organRootId = int.Parse(inputs[7]);
+                entitys.add_entity(x, y, type, owner, organId, organDir, organParentId, organRootId);
+            }
+            inputs = Console.ReadLine().Split(' ');
+            int myA = int.Parse(inputs[0]);
+            int myB = int.Parse(inputs[1]);
+            int myC = int.Parse(inputs[2]);
+            int myD = int.Parse(inputs[3]); // your protein stock
+            inputs = Console.ReadLine().Split(' ');
+            int oppA = int.Parse(inputs[0]);
+            int oppB = int.Parse(inputs[1]);
+            int oppC = int.Parse(inputs[2]);
+            int oppD = int.Parse(inputs[3]); // opponent's protein stock
+            int requiredActionsCount = int.Parse(Console.ReadLine()); // your number of organisms, output an action for each one in any order
+            entitys.set_protein_stock(myA, myB, myC, myD);
+            for (int i = 0; i < requiredActionsCount; i++)
+            {
+                Move_result result = new();
+                if(result.start_id != null )
+                    result.start_id.print();
+                if(result.move_to != null)
+                    result.move_to.print();
+                if(result.start_id == null && result.move_to == null)
+                    Console.WriteLine($"WAIT");
+            }
+            entitys.clear_all();
+        }
+    }
+}

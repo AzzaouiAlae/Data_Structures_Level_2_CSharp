@@ -12,3 +12,4 @@
 /home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/CodinGame/CodinGame/obj/Debug/net9.0/CodinGame.pdb
 /home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/CodinGame/CodinGame/obj/Debug/net9.0/CodinGame.genruntimeconfig.cache
 /home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/CodinGame/CodinGame/obj/Debug/net9.0/ref/CodinGame.dll
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/CodinGame/CodinGame/obj/Debug/net9.0/CodinGame.sourcelink.json
