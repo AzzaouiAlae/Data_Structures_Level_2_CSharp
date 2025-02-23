@@ -1,0 +1,15 @@
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/003_dictionary/dictionary/bin/Debug/net9.0/dictionary
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/003_dictionary/dictionary/bin/Debug/net9.0/dictionary.deps.json
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/003_dictionary/dictionary/bin/Debug/net9.0/dictionary.runtimeconfig.json
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/003_dictionary/dictionary/bin/Debug/net9.0/dictionary.dll
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/003_dictionary/dictionary/bin/Debug/net9.0/dictionary.pdb
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/003_dictionary/dictionary/obj/Debug/net9.0/dictionary.GeneratedMSBuildEditorConfig.editorconfig
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/003_dictionary/dictionary/obj/Debug/net9.0/dictionary.AssemblyInfoInputs.cache
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/003_dictionary/dictionary/obj/Debug/net9.0/dictionary.AssemblyInfo.cs
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/003_dictionary/dictionary/obj/Debug/net9.0/dictionary.csproj.CoreCompileInputs.cache
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/003_dictionary/dictionary/obj/Debug/net9.0/dictionary.sourcelink.json
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/003_dictionary/dictionary/obj/Debug/net9.0/dictionary.dll
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/003_dictionary/dictionary/obj/Debug/net9.0/refint/dictionary.dll
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/003_dictionary/dictionary/obj/Debug/net9.0/dictionary.pdb
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/003_dictionary/dictionary/obj/Debug/net9.0/dictionary.genruntimeconfig.cache
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/003_dictionary/dictionary/obj/Debug/net9.0/ref/dictionary.dll

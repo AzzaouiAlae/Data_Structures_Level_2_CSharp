@@ -1,0 +1,15 @@
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/002_Hashtable/Hashtable_in_c_shap/bin/Debug/net9.0/Hashtable_in_c_shap
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/002_Hashtable/Hashtable_in_c_shap/bin/Debug/net9.0/Hashtable_in_c_shap.deps.json
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/002_Hashtable/Hashtable_in_c_shap/bin/Debug/net9.0/Hashtable_in_c_shap.runtimeconfig.json
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/002_Hashtable/Hashtable_in_c_shap/bin/Debug/net9.0/Hashtable_in_c_shap.dll
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/002_Hashtable/Hashtable_in_c_shap/bin/Debug/net9.0/Hashtable_in_c_shap.pdb
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/002_Hashtable/Hashtable_in_c_shap/obj/Debug/net9.0/Hashtable_in_c_shap.GeneratedMSBuildEditorConfig.editorconfig
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/002_Hashtable/Hashtable_in_c_shap/obj/Debug/net9.0/Hashtable_in_c_shap.AssemblyInfoInputs.cache
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/002_Hashtable/Hashtable_in_c_shap/obj/Debug/net9.0/Hashtable_in_c_shap.AssemblyInfo.cs
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/002_Hashtable/Hashtable_in_c_shap/obj/Debug/net9.0/Hashtable_in_c_shap.csproj.CoreCompileInputs.cache
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/002_Hashtable/Hashtable_in_c_shap/obj/Debug/net9.0/Hashtable_in_c_shap.sourcelink.json
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/002_Hashtable/Hashtable_in_c_shap/obj/Debug/net9.0/Hashtable_in_c_shap.dll
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/002_Hashtable/Hashtable_in_c_shap/obj/Debug/net9.0/refint/Hashtable_in_c_shap.dll
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/002_Hashtable/Hashtable_in_c_shap/obj/Debug/net9.0/Hashtable_in_c_shap.pdb
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/002_Hashtable/Hashtable_in_c_shap/obj/Debug/net9.0/Hashtable_in_c_shap.genruntimeconfig.cache
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/002_Hashtable/Hashtable_in_c_shap/obj/Debug/net9.0/ref/Hashtable_in_c_shap.dll

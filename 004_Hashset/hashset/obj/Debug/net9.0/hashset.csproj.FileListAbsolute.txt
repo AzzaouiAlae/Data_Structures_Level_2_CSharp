@@ -1,0 +1,15 @@
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/004_Hashset/hashset/bin/Debug/net9.0/hashset
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/004_Hashset/hashset/bin/Debug/net9.0/hashset.deps.json
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/004_Hashset/hashset/bin/Debug/net9.0/hashset.runtimeconfig.json
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/004_Hashset/hashset/bin/Debug/net9.0/hashset.dll
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/004_Hashset/hashset/bin/Debug/net9.0/hashset.pdb
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/004_Hashset/hashset/obj/Debug/net9.0/hashset.GeneratedMSBuildEditorConfig.editorconfig
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/004_Hashset/hashset/obj/Debug/net9.0/hashset.AssemblyInfoInputs.cache
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/004_Hashset/hashset/obj/Debug/net9.0/hashset.AssemblyInfo.cs
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/004_Hashset/hashset/obj/Debug/net9.0/hashset.csproj.CoreCompileInputs.cache
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/004_Hashset/hashset/obj/Debug/net9.0/hashset.sourcelink.json
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/004_Hashset/hashset/obj/Debug/net9.0/hashset.dll
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/004_Hashset/hashset/obj/Debug/net9.0/refint/hashset.dll
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/004_Hashset/hashset/obj/Debug/net9.0/hashset.pdb
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/004_Hashset/hashset/obj/Debug/net9.0/hashset.genruntimeconfig.cache
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/004_Hashset/hashset/obj/Debug/net9.0/ref/hashset.dll

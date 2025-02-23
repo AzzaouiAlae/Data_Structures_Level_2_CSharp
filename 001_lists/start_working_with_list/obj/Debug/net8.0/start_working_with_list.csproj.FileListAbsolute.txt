@@ -1,0 +1,15 @@
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/001_lists/start_working_with_list/bin/Debug/net8.0/start_working_with_list
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/001_lists/start_working_with_list/bin/Debug/net8.0/start_working_with_list.deps.json
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/001_lists/start_working_with_list/bin/Debug/net8.0/start_working_with_list.runtimeconfig.json
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/001_lists/start_working_with_list/bin/Debug/net8.0/start_working_with_list.dll
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/001_lists/start_working_with_list/bin/Debug/net8.0/start_working_with_list.pdb
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/001_lists/start_working_with_list/obj/Debug/net8.0/start_working_with_list.GeneratedMSBuildEditorConfig.editorconfig
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/001_lists/start_working_with_list/obj/Debug/net8.0/start_working_with_list.AssemblyInfoInputs.cache
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/001_lists/start_working_with_list/obj/Debug/net8.0/start_working_with_list.AssemblyInfo.cs
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/001_lists/start_working_with_list/obj/Debug/net8.0/start_working_with_list.csproj.CoreCompileInputs.cache
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/001_lists/start_working_with_list/obj/Debug/net8.0/start_working_with_list.sourcelink.json
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/001_lists/start_working_with_list/obj/Debug/net8.0/start_working_with_list.dll
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/001_lists/start_working_with_list/obj/Debug/net8.0/refint/start_working_with_list.dll
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/001_lists/start_working_with_list/obj/Debug/net8.0/start_working_with_list.pdb
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/001_lists/start_working_with_list/obj/Debug/net8.0/start_working_with_list.genruntimeconfig.cache
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/001_lists/start_working_with_list/obj/Debug/net8.0/ref/start_working_with_list.dll

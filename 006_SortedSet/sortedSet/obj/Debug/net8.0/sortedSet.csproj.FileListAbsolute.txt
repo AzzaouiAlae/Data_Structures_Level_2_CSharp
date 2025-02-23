@@ -1,0 +1,15 @@
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/006_SortedSet/sortedSet/bin/Debug/net8.0/sortedSet
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/006_SortedSet/sortedSet/bin/Debug/net8.0/sortedSet.deps.json
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/006_SortedSet/sortedSet/bin/Debug/net8.0/sortedSet.runtimeconfig.json
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/006_SortedSet/sortedSet/bin/Debug/net8.0/sortedSet.dll
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/006_SortedSet/sortedSet/bin/Debug/net8.0/sortedSet.pdb
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/006_SortedSet/sortedSet/obj/Debug/net8.0/sortedSet.GeneratedMSBuildEditorConfig.editorconfig
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/006_SortedSet/sortedSet/obj/Debug/net8.0/sortedSet.AssemblyInfoInputs.cache
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/006_SortedSet/sortedSet/obj/Debug/net8.0/sortedSet.AssemblyInfo.cs
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/006_SortedSet/sortedSet/obj/Debug/net8.0/sortedSet.csproj.CoreCompileInputs.cache
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/006_SortedSet/sortedSet/obj/Debug/net8.0/sortedSet.sourcelink.json
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/006_SortedSet/sortedSet/obj/Debug/net8.0/sortedSet.dll
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/006_SortedSet/sortedSet/obj/Debug/net8.0/refint/sortedSet.dll
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/006_SortedSet/sortedSet/obj/Debug/net8.0/sortedSet.pdb
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/006_SortedSet/sortedSet/obj/Debug/net8.0/sortedSet.genruntimeconfig.cache
+/home/aazzaoui/Desktop/cources/Data_Structures_Level_2_CSharp/006_SortedSet/sortedSet/obj/Debug/net8.0/ref/sortedSet.dll
