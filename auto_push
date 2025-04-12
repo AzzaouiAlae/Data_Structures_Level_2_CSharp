@@ -1,10 +1,10 @@
 #!/bin/bash
 
-time=`ls -t | head -1 | awk '{$0 ~ ".time"; print 1}'`
+time=`ls -t | head -1 | awk '{if ($0 ~ /\.time/) print 1; else print 0;}'`
 git add *
 git commit -m 'auto commit'
 git pull --rebase origin main
-if (( $time != 1 )); then
+if (( $time == 0 )); then
 	git push
 	rm .time
 	touch .time
