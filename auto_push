@@ -3,7 +3,7 @@
 time=`ls -at | grep -v "^.$" | grep -v "^..$" | grep -v "^.git" | head -1 | awk '{if ($0 ~ /\.time/) print 1; else print 0;}'`
 git add * > /dev/null
 git commit -m 'auto commit' > /dev/null
-git pull --rebase origin main > /dev/null
+git pull --rebase origin main #> /dev/null
 if (( $time == 0 )); then
 	git push
 	rm .time
