@@ -1,9 +1,9 @@
 #!/bin/bash
 
 time=`ls -at | head -2 | tail -1  | awk '{if ($0 ~ /\.time/) print 1; else print 0;}'`
-git add *
-git commit -m 'auto commit'
-git pull --rebase origin main
+git add * > /dev/null
+git commit -m 'auto commit' > /dev/null
+git pull --rebase origin main > /dev/null
 if (( $time == 0 )); then
 	git push
 	rm .time
