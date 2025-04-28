@@ -9,6 +9,7 @@ public enum enType {
 public enum enDirection{
         E = 'E', W = 'W', N = 'N', S = 'S', X = 'X'
     } 
+
 public struct Wieght
 {
     public byte SPORE_ROOT;
