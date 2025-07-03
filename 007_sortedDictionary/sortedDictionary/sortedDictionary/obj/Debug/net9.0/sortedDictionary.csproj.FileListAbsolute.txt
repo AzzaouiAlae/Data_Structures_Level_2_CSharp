@@ -1,0 +1,15 @@
+F:\OneDrive\Source\Data_Structures_Level_2_CSharp\007_sortedDictionary\sortedDictionary\sortedDictionary\bin\Debug\net9.0\sortedDictionary.exe
+F:\OneDrive\Source\Data_Structures_Level_2_CSharp\007_sortedDictionary\sortedDictionary\sortedDictionary\bin\Debug\net9.0\sortedDictionary.deps.json
+F:\OneDrive\Source\Data_Structures_Level_2_CSharp\007_sortedDictionary\sortedDictionary\sortedDictionary\bin\Debug\net9.0\sortedDictionary.runtimeconfig.json
+F:\OneDrive\Source\Data_Structures_Level_2_CSharp\007_sortedDictionary\sortedDictionary\sortedDictionary\bin\Debug\net9.0\sortedDictionary.dll
+F:\OneDrive\Source\Data_Structures_Level_2_CSharp\007_sortedDictionary\sortedDictionary\sortedDictionary\bin\Debug\net9.0\sortedDictionary.pdb
+F:\OneDrive\Source\Data_Structures_Level_2_CSharp\007_sortedDictionary\sortedDictionary\sortedDictionary\obj\Debug\net9.0\sortedDictionary.GeneratedMSBuildEditorConfig.editorconfig
+F:\OneDrive\Source\Data_Structures_Level_2_CSharp\007_sortedDictionary\sortedDictionary\sortedDictionary\obj\Debug\net9.0\sortedDictionary.AssemblyInfoInputs.cache
+F:\OneDrive\Source\Data_Structures_Level_2_CSharp\007_sortedDictionary\sortedDictionary\sortedDictionary\obj\Debug\net9.0\sortedDictionary.AssemblyInfo.cs
+F:\OneDrive\Source\Data_Structures_Level_2_CSharp\007_sortedDictionary\sortedDictionary\sortedDictionary\obj\Debug\net9.0\sortedDictionary.csproj.CoreCompileInputs.cache
+F:\OneDrive\Source\Data_Structures_Level_2_CSharp\007_sortedDictionary\sortedDictionary\sortedDictionary\obj\Debug\net9.0\sortedDictionary.sourcelink.json
+F:\OneDrive\Source\Data_Structures_Level_2_CSharp\007_sortedDictionary\sortedDictionary\sortedDictionary\obj\Debug\net9.0\sortedDictionary.dll
+F:\OneDrive\Source\Data_Structures_Level_2_CSharp\007_sortedDictionary\sortedDictionary\sortedDictionary\obj\Debug\net9.0\refint\sortedDictionary.dll
+F:\OneDrive\Source\Data_Structures_Level_2_CSharp\007_sortedDictionary\sortedDictionary\sortedDictionary\obj\Debug\net9.0\sortedDictionary.pdb
+F:\OneDrive\Source\Data_Structures_Level_2_CSharp\007_sortedDictionary\sortedDictionary\sortedDictionary\obj\Debug\net9.0\sortedDictionary.genruntimeconfig.cache
+F:\OneDrive\Source\Data_Structures_Level_2_CSharp\007_sortedDictionary\sortedDictionary\sortedDictionary\obj\Debug\net9.0\ref\sortedDictionary.dll

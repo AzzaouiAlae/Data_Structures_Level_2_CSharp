@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.Clear();
+        //Console.Clear();
         //sorted_Set.start();
         //sorted_Set.useLINQ();
         //sorted_Set.find();
