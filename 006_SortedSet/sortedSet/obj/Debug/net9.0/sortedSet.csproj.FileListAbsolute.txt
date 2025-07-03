@@ -1,0 +1,15 @@
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\006_SortedSet\sortedSet\bin\Debug\net9.0\sortedSet.exe
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\006_SortedSet\sortedSet\bin\Debug\net9.0\sortedSet.deps.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\006_SortedSet\sortedSet\bin\Debug\net9.0\sortedSet.runtimeconfig.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\006_SortedSet\sortedSet\bin\Debug\net9.0\sortedSet.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\006_SortedSet\sortedSet\bin\Debug\net9.0\sortedSet.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\006_SortedSet\sortedSet\obj\Debug\net9.0\sortedSet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\006_SortedSet\sortedSet\obj\Debug\net9.0\sortedSet.AssemblyInfoInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\006_SortedSet\sortedSet\obj\Debug\net9.0\sortedSet.AssemblyInfo.cs
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\006_SortedSet\sortedSet\obj\Debug\net9.0\sortedSet.csproj.CoreCompileInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\006_SortedSet\sortedSet\obj\Debug\net9.0\sortedSet.sourcelink.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\006_SortedSet\sortedSet\obj\Debug\net9.0\sortedSet.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\006_SortedSet\sortedSet\obj\Debug\net9.0\refint\sortedSet.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\006_SortedSet\sortedSet\obj\Debug\net9.0\sortedSet.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\006_SortedSet\sortedSet\obj\Debug\net9.0\sortedSet.genruntimeconfig.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\006_SortedSet\sortedSet\obj\Debug\net9.0\ref\sortedSet.dll
