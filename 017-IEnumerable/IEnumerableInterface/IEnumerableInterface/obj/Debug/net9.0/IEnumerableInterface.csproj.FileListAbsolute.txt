@@ -1,0 +1,15 @@
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\017-IEnumerable\IEnumerableInterface\IEnumerableInterface\bin\Debug\net9.0\IEnumerableInterface.exe
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\017-IEnumerable\IEnumerableInterface\IEnumerableInterface\bin\Debug\net9.0\IEnumerableInterface.deps.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\017-IEnumerable\IEnumerableInterface\IEnumerableInterface\bin\Debug\net9.0\IEnumerableInterface.runtimeconfig.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\017-IEnumerable\IEnumerableInterface\IEnumerableInterface\bin\Debug\net9.0\IEnumerableInterface.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\017-IEnumerable\IEnumerableInterface\IEnumerableInterface\bin\Debug\net9.0\IEnumerableInterface.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\017-IEnumerable\IEnumerableInterface\IEnumerableInterface\obj\Debug\net9.0\IEnumerableInterface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\017-IEnumerable\IEnumerableInterface\IEnumerableInterface\obj\Debug\net9.0\IEnumerableInterface.AssemblyInfoInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\017-IEnumerable\IEnumerableInterface\IEnumerableInterface\obj\Debug\net9.0\IEnumerableInterface.AssemblyInfo.cs
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\017-IEnumerable\IEnumerableInterface\IEnumerableInterface\obj\Debug\net9.0\IEnumerableInterface.csproj.CoreCompileInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\017-IEnumerable\IEnumerableInterface\IEnumerableInterface\obj\Debug\net9.0\IEnumerableInterface.sourcelink.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\017-IEnumerable\IEnumerableInterface\IEnumerableInterface\obj\Debug\net9.0\IEnumerableInterface.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\017-IEnumerable\IEnumerableInterface\IEnumerableInterface\obj\Debug\net9.0\refint\IEnumerableInterface.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\017-IEnumerable\IEnumerableInterface\IEnumerableInterface\obj\Debug\net9.0\IEnumerableInterface.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\017-IEnumerable\IEnumerableInterface\IEnumerableInterface\obj\Debug\net9.0\IEnumerableInterface.genruntimeconfig.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\017-IEnumerable\IEnumerableInterface\IEnumerableInterface\obj\Debug\net9.0\ref\IEnumerableInterface.dll

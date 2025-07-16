@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\azzao\\OneDrive\\Source\\Data_Structures_Level_2_CSharp\\015-JaggedArrays\\JaggedArraysDS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0E36D3-566F-4399-ADA6-97122BFAC9E4}|JaggedArraysDS\\JaggedArraysDS.csproj|c:\\users\\azzao\\onedrive\\source\\data_structures_level_2_csharp\\015-jaggedarrays\\jaggedarraysds\\jaggedarraysds\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0E36D3-566F-4399-ADA6-97122BFAC9E4}|JaggedArraysDS\\JaggedArraysDS.csproj|solutionrelative:jaggedarraysds\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\azzao\\OneDrive\\Source\\Data_Structures_Level_2_CSharp\\015-JaggedArrays\\JaggedArraysDS\\JaggedArraysDS\\Program.cs",
+              "RelativeDocumentMoniker": "JaggedArraysDS\\Program.cs",
+              "ToolTip": "C:\\Users\\azzao\\OneDrive\\Source\\Data_Structures_Level_2_CSharp\\015-JaggedArrays\\JaggedArraysDS\\JaggedArraysDS\\Program.cs",
+              "RelativeToolTip": "JaggedArraysDS\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T14:39:58.456Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

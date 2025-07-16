@@ -1,0 +1,15 @@
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\010-Stack\StackDS\StackDS\bin\Debug\net9.0\StackDS.exe
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\010-Stack\StackDS\StackDS\bin\Debug\net9.0\StackDS.deps.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\010-Stack\StackDS\StackDS\bin\Debug\net9.0\StackDS.runtimeconfig.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\010-Stack\StackDS\StackDS\bin\Debug\net9.0\StackDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\010-Stack\StackDS\StackDS\bin\Debug\net9.0\StackDS.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\010-Stack\StackDS\StackDS\obj\Debug\net9.0\StackDS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\010-Stack\StackDS\StackDS\obj\Debug\net9.0\StackDS.AssemblyInfoInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\010-Stack\StackDS\StackDS\obj\Debug\net9.0\StackDS.AssemblyInfo.cs
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\010-Stack\StackDS\StackDS\obj\Debug\net9.0\StackDS.csproj.CoreCompileInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\010-Stack\StackDS\StackDS\obj\Debug\net9.0\StackDS.sourcelink.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\010-Stack\StackDS\StackDS\obj\Debug\net9.0\StackDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\010-Stack\StackDS\StackDS\obj\Debug\net9.0\refint\StackDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\010-Stack\StackDS\StackDS\obj\Debug\net9.0\StackDS.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\010-Stack\StackDS\StackDS\obj\Debug\net9.0\StackDS.genruntimeconfig.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\010-Stack\StackDS\StackDS\obj\Debug\net9.0\ref\StackDS.dll

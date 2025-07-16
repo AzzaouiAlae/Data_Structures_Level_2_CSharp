@@ -1,0 +1,15 @@
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\018-ICollection\ICollectionInterface\ICollectionInterface\bin\Debug\net9.0\ICollectionInterface.exe
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\018-ICollection\ICollectionInterface\ICollectionInterface\bin\Debug\net9.0\ICollectionInterface.deps.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\018-ICollection\ICollectionInterface\ICollectionInterface\bin\Debug\net9.0\ICollectionInterface.runtimeconfig.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\018-ICollection\ICollectionInterface\ICollectionInterface\bin\Debug\net9.0\ICollectionInterface.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\018-ICollection\ICollectionInterface\ICollectionInterface\bin\Debug\net9.0\ICollectionInterface.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\018-ICollection\ICollectionInterface\ICollectionInterface\obj\Debug\net9.0\ICollectionInterface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\018-ICollection\ICollectionInterface\ICollectionInterface\obj\Debug\net9.0\ICollectionInterface.AssemblyInfoInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\018-ICollection\ICollectionInterface\ICollectionInterface\obj\Debug\net9.0\ICollectionInterface.AssemblyInfo.cs
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\018-ICollection\ICollectionInterface\ICollectionInterface\obj\Debug\net9.0\ICollectionInterface.csproj.CoreCompileInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\018-ICollection\ICollectionInterface\ICollectionInterface\obj\Debug\net9.0\ICollectionInterface.sourcelink.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\018-ICollection\ICollectionInterface\ICollectionInterface\obj\Debug\net9.0\ICollectionInterface.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\018-ICollection\ICollectionInterface\ICollectionInterface\obj\Debug\net9.0\refint\ICollectionInterface.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\018-ICollection\ICollectionInterface\ICollectionInterface\obj\Debug\net9.0\ICollectionInterface.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\018-ICollection\ICollectionInterface\ICollectionInterface\obj\Debug\net9.0\ICollectionInterface.genruntimeconfig.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\018-ICollection\ICollectionInterface\ICollectionInterface\obj\Debug\net9.0\ref\ICollectionInterface.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "IComparableInCustomClasses/1.0.0": {
+        "runtime": {
+          "IComparableInCustomClasses.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IComparableInCustomClasses/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\thisInClass\thisInClass\bin\Debug\net9.0\thisInClass.exe
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\thisInClass\thisInClass\bin\Debug\net9.0\thisInClass.deps.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\thisInClass\thisInClass\bin\Debug\net9.0\thisInClass.runtimeconfig.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\thisInClass\thisInClass\bin\Debug\net9.0\thisInClass.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\thisInClass\thisInClass\bin\Debug\net9.0\thisInClass.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\thisInClass\thisInClass\obj\Debug\net9.0\thisInClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\thisInClass\thisInClass\obj\Debug\net9.0\thisInClass.AssemblyInfoInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\thisInClass\thisInClass\obj\Debug\net9.0\thisInClass.AssemblyInfo.cs
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\thisInClass\thisInClass\obj\Debug\net9.0\thisInClass.csproj.CoreCompileInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\thisInClass\thisInClass\obj\Debug\net9.0\thisInClass.sourcelink.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\thisInClass\thisInClass\obj\Debug\net9.0\thisInClass.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\thisInClass\thisInClass\obj\Debug\net9.0\refint\thisInClass.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\thisInClass\thisInClass\obj\Debug\net9.0\thisInClass.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\thisInClass\thisInClass\obj\Debug\net9.0\thisInClass.genruntimeconfig.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\thisInClass\thisInClass\obj\Debug\net9.0\ref\thisInClass.dll

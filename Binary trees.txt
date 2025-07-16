@@ -1,0 +1,11 @@
+1. Full Binary Tree
+2. Perfect Binary Tree
+3. Complete Binary Tree
+4. Balanced Binary Tree
+5. Degenerate (or Skewed) Binary Tree
+6. Binary Search Tree (BST)
+7. AVL Tree
+8. Red-Black Tree
+9. Threaded Binary Tree
+10. Expression Tree
+11. Huffman Tree

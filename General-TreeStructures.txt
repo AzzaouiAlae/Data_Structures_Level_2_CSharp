@@ -1,0 +1,29 @@
+1. General-Purpose Tree Structures
+Generic Tree
+N-ary Tree
+K-ary Tree
+--------------------------------------
+2. Syntax & Parsing Trees
+Abstract Syntax Tree
+Parse Tree
+Expression Tree
+--------------------------------------
+3. Specialized Hierarchical Trees
+DOM Tree
+Scene Graph
+UI Tree
+--------------------------------------
+4. Semantic & Logic Trees
+Decision Tree
+Behavior Tree
+Knowledge Tree
+Ontology Tree
+--------------------------------------
+5. Data Modeling Trees
+Trie (Prefix Tree)
+Radix Tree (Compressed Trie)
+Suffix Tree
+--------------------------------------
+6. File and Directory Trees
+Filesystem Tree
+Package Structure Tree

@@ -1,0 +1,15 @@
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\020-IDictionary\IDictionaryDS\IDictionaryDS\bin\Debug\net9.0\IDictionaryDS.exe
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\020-IDictionary\IDictionaryDS\IDictionaryDS\bin\Debug\net9.0\IDictionaryDS.deps.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\020-IDictionary\IDictionaryDS\IDictionaryDS\bin\Debug\net9.0\IDictionaryDS.runtimeconfig.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\020-IDictionary\IDictionaryDS\IDictionaryDS\bin\Debug\net9.0\IDictionaryDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\020-IDictionary\IDictionaryDS\IDictionaryDS\bin\Debug\net9.0\IDictionaryDS.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\020-IDictionary\IDictionaryDS\IDictionaryDS\obj\Debug\net9.0\IDictionaryDS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\020-IDictionary\IDictionaryDS\IDictionaryDS\obj\Debug\net9.0\IDictionaryDS.AssemblyInfoInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\020-IDictionary\IDictionaryDS\IDictionaryDS\obj\Debug\net9.0\IDictionaryDS.AssemblyInfo.cs
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\020-IDictionary\IDictionaryDS\IDictionaryDS\obj\Debug\net9.0\IDictionaryDS.csproj.CoreCompileInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\020-IDictionary\IDictionaryDS\IDictionaryDS\obj\Debug\net9.0\IDictionaryDS.sourcelink.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\020-IDictionary\IDictionaryDS\IDictionaryDS\obj\Debug\net9.0\IDictionaryDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\020-IDictionary\IDictionaryDS\IDictionaryDS\obj\Debug\net9.0\refint\IDictionaryDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\020-IDictionary\IDictionaryDS\IDictionaryDS\obj\Debug\net9.0\IDictionaryDS.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\020-IDictionary\IDictionaryDS\IDictionaryDS\obj\Debug\net9.0\IDictionaryDS.genruntimeconfig.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\020-IDictionary\IDictionaryDS\IDictionaryDS\obj\Debug\net9.0\ref\IDictionaryDS.dll

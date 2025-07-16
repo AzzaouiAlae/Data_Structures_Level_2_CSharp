@@ -1,0 +1,15 @@
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\16-Tuples\TuplesDS\TuplesDS\bin\Debug\net9.0\TuplesDS.exe
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\16-Tuples\TuplesDS\TuplesDS\bin\Debug\net9.0\TuplesDS.deps.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\16-Tuples\TuplesDS\TuplesDS\bin\Debug\net9.0\TuplesDS.runtimeconfig.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\16-Tuples\TuplesDS\TuplesDS\bin\Debug\net9.0\TuplesDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\16-Tuples\TuplesDS\TuplesDS\bin\Debug\net9.0\TuplesDS.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\16-Tuples\TuplesDS\TuplesDS\obj\Debug\net9.0\TuplesDS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\16-Tuples\TuplesDS\TuplesDS\obj\Debug\net9.0\TuplesDS.AssemblyInfoInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\16-Tuples\TuplesDS\TuplesDS\obj\Debug\net9.0\TuplesDS.AssemblyInfo.cs
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\16-Tuples\TuplesDS\TuplesDS\obj\Debug\net9.0\TuplesDS.csproj.CoreCompileInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\16-Tuples\TuplesDS\TuplesDS\obj\Debug\net9.0\TuplesDS.sourcelink.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\16-Tuples\TuplesDS\TuplesDS\obj\Debug\net9.0\TuplesDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\16-Tuples\TuplesDS\TuplesDS\obj\Debug\net9.0\refint\TuplesDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\16-Tuples\TuplesDS\TuplesDS\obj\Debug\net9.0\TuplesDS.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\16-Tuples\TuplesDS\TuplesDS\obj\Debug\net9.0\TuplesDS.genruntimeconfig.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\16-Tuples\TuplesDS\TuplesDS\obj\Debug\net9.0\ref\TuplesDS.dll

@@ -1,0 +1,15 @@
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\019-IList\IListInterface\IListInterface\bin\Debug\net9.0\IListInterface.exe
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\019-IList\IListInterface\IListInterface\bin\Debug\net9.0\IListInterface.deps.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\019-IList\IListInterface\IListInterface\bin\Debug\net9.0\IListInterface.runtimeconfig.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\019-IList\IListInterface\IListInterface\bin\Debug\net9.0\IListInterface.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\019-IList\IListInterface\IListInterface\bin\Debug\net9.0\IListInterface.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\019-IList\IListInterface\IListInterface\obj\Debug\net9.0\IListInterface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\019-IList\IListInterface\IListInterface\obj\Debug\net9.0\IListInterface.AssemblyInfoInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\019-IList\IListInterface\IListInterface\obj\Debug\net9.0\IListInterface.AssemblyInfo.cs
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\019-IList\IListInterface\IListInterface\obj\Debug\net9.0\IListInterface.csproj.CoreCompileInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\019-IList\IListInterface\IListInterface\obj\Debug\net9.0\IListInterface.sourcelink.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\019-IList\IListInterface\IListInterface\obj\Debug\net9.0\IListInterface.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\019-IList\IListInterface\IListInterface\obj\Debug\net9.0\refint\IListInterface.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\019-IList\IListInterface\IListInterface\obj\Debug\net9.0\IListInterface.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\019-IList\IListInterface\IListInterface\obj\Debug\net9.0\IListInterface.genruntimeconfig.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\019-IList\IListInterface\IListInterface\obj\Debug\net9.0\ref\IListInterface.dll

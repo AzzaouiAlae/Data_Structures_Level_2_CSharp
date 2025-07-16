@@ -1,0 +1,15 @@
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\011-Queue\QueueDS\QueueDS\bin\Debug\net9.0\QueueDS.exe
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\011-Queue\QueueDS\QueueDS\bin\Debug\net9.0\QueueDS.deps.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\011-Queue\QueueDS\QueueDS\bin\Debug\net9.0\QueueDS.runtimeconfig.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\011-Queue\QueueDS\QueueDS\bin\Debug\net9.0\QueueDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\011-Queue\QueueDS\QueueDS\bin\Debug\net9.0\QueueDS.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\011-Queue\QueueDS\QueueDS\obj\Debug\net9.0\QueueDS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\011-Queue\QueueDS\QueueDS\obj\Debug\net9.0\QueueDS.AssemblyInfoInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\011-Queue\QueueDS\QueueDS\obj\Debug\net9.0\QueueDS.AssemblyInfo.cs
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\011-Queue\QueueDS\QueueDS\obj\Debug\net9.0\QueueDS.csproj.CoreCompileInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\011-Queue\QueueDS\QueueDS\obj\Debug\net9.0\QueueDS.sourcelink.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\011-Queue\QueueDS\QueueDS\obj\Debug\net9.0\QueueDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\011-Queue\QueueDS\QueueDS\obj\Debug\net9.0\refint\QueueDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\011-Queue\QueueDS\QueueDS\obj\Debug\net9.0\QueueDS.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\011-Queue\QueueDS\QueueDS\obj\Debug\net9.0\QueueDS.genruntimeconfig.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\011-Queue\QueueDS\QueueDS\obj\Debug\net9.0\ref\QueueDS.dll

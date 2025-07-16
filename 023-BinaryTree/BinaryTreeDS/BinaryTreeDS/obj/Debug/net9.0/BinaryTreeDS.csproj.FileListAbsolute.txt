@@ -1,0 +1,15 @@
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\023-BinaryTree\BinaryTreeDS\BinaryTreeDS\bin\Debug\net9.0\BinaryTreeDS.exe
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\023-BinaryTree\BinaryTreeDS\BinaryTreeDS\bin\Debug\net9.0\BinaryTreeDS.deps.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\023-BinaryTree\BinaryTreeDS\BinaryTreeDS\bin\Debug\net9.0\BinaryTreeDS.runtimeconfig.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\023-BinaryTree\BinaryTreeDS\BinaryTreeDS\bin\Debug\net9.0\BinaryTreeDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\023-BinaryTree\BinaryTreeDS\BinaryTreeDS\bin\Debug\net9.0\BinaryTreeDS.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\023-BinaryTree\BinaryTreeDS\BinaryTreeDS\obj\Debug\net9.0\BinaryTreeDS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\023-BinaryTree\BinaryTreeDS\BinaryTreeDS\obj\Debug\net9.0\BinaryTreeDS.AssemblyInfoInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\023-BinaryTree\BinaryTreeDS\BinaryTreeDS\obj\Debug\net9.0\BinaryTreeDS.AssemblyInfo.cs
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\023-BinaryTree\BinaryTreeDS\BinaryTreeDS\obj\Debug\net9.0\BinaryTreeDS.csproj.CoreCompileInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\023-BinaryTree\BinaryTreeDS\BinaryTreeDS\obj\Debug\net9.0\BinaryTreeDS.sourcelink.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\023-BinaryTree\BinaryTreeDS\BinaryTreeDS\obj\Debug\net9.0\BinaryTreeDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\023-BinaryTree\BinaryTreeDS\BinaryTreeDS\obj\Debug\net9.0\refint\BinaryTreeDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\023-BinaryTree\BinaryTreeDS\BinaryTreeDS\obj\Debug\net9.0\BinaryTreeDS.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\023-BinaryTree\BinaryTreeDS\BinaryTreeDS\obj\Debug\net9.0\BinaryTreeDS.genruntimeconfig.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\023-BinaryTree\BinaryTreeDS\BinaryTreeDS\obj\Debug\net9.0\ref\BinaryTreeDS.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "BitArrayDS/1.0.0": {
+        "runtime": {
+          "BitArrayDS.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BitArrayDS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\012-LinkedList\LinkedListDS\LinkedListDS\bin\Debug\net9.0\LinkedListDS.exe
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\012-LinkedList\LinkedListDS\LinkedListDS\bin\Debug\net9.0\LinkedListDS.deps.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\012-LinkedList\LinkedListDS\LinkedListDS\bin\Debug\net9.0\LinkedListDS.runtimeconfig.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\012-LinkedList\LinkedListDS\LinkedListDS\bin\Debug\net9.0\LinkedListDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\012-LinkedList\LinkedListDS\LinkedListDS\bin\Debug\net9.0\LinkedListDS.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\012-LinkedList\LinkedListDS\LinkedListDS\obj\Debug\net9.0\LinkedListDS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\012-LinkedList\LinkedListDS\LinkedListDS\obj\Debug\net9.0\LinkedListDS.AssemblyInfoInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\012-LinkedList\LinkedListDS\LinkedListDS\obj\Debug\net9.0\LinkedListDS.AssemblyInfo.cs
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\012-LinkedList\LinkedListDS\LinkedListDS\obj\Debug\net9.0\LinkedListDS.csproj.CoreCompileInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\012-LinkedList\LinkedListDS\LinkedListDS\obj\Debug\net9.0\LinkedListDS.sourcelink.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\012-LinkedList\LinkedListDS\LinkedListDS\obj\Debug\net9.0\LinkedListDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\012-LinkedList\LinkedListDS\LinkedListDS\obj\Debug\net9.0\refint\LinkedListDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\012-LinkedList\LinkedListDS\LinkedListDS\obj\Debug\net9.0\LinkedListDS.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\012-LinkedList\LinkedListDS\LinkedListDS\obj\Debug\net9.0\LinkedListDS.genruntimeconfig.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\012-LinkedList\LinkedListDS\LinkedListDS\obj\Debug\net9.0\ref\LinkedListDS.dll

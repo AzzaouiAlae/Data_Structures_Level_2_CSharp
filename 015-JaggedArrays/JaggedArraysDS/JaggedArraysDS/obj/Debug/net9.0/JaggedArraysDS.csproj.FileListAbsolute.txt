@@ -1,0 +1,15 @@
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\015-JaggedArrays\JaggedArraysDS\JaggedArraysDS\bin\Debug\net9.0\JaggedArraysDS.exe
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\015-JaggedArrays\JaggedArraysDS\JaggedArraysDS\bin\Debug\net9.0\JaggedArraysDS.deps.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\015-JaggedArrays\JaggedArraysDS\JaggedArraysDS\bin\Debug\net9.0\JaggedArraysDS.runtimeconfig.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\015-JaggedArrays\JaggedArraysDS\JaggedArraysDS\bin\Debug\net9.0\JaggedArraysDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\015-JaggedArrays\JaggedArraysDS\JaggedArraysDS\bin\Debug\net9.0\JaggedArraysDS.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\015-JaggedArrays\JaggedArraysDS\JaggedArraysDS\obj\Debug\net9.0\JaggedArraysDS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\015-JaggedArrays\JaggedArraysDS\JaggedArraysDS\obj\Debug\net9.0\JaggedArraysDS.AssemblyInfoInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\015-JaggedArrays\JaggedArraysDS\JaggedArraysDS\obj\Debug\net9.0\JaggedArraysDS.AssemblyInfo.cs
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\015-JaggedArrays\JaggedArraysDS\JaggedArraysDS\obj\Debug\net9.0\JaggedArraysDS.csproj.CoreCompileInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\015-JaggedArrays\JaggedArraysDS\JaggedArraysDS\obj\Debug\net9.0\JaggedArraysDS.sourcelink.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\015-JaggedArrays\JaggedArraysDS\JaggedArraysDS\obj\Debug\net9.0\JaggedArraysDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\015-JaggedArrays\JaggedArraysDS\JaggedArraysDS\obj\Debug\net9.0\refint\JaggedArraysDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\015-JaggedArrays\JaggedArraysDS\JaggedArraysDS\obj\Debug\net9.0\JaggedArraysDS.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\015-JaggedArrays\JaggedArraysDS\JaggedArraysDS\obj\Debug\net9.0\JaggedArraysDS.genruntimeconfig.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\015-JaggedArrays\JaggedArraysDS\JaggedArraysDS\obj\Debug\net9.0\ref\JaggedArraysDS.dll

@@ -1,0 +1,15 @@
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\022-GeneralTree\GreneralTreeDS\GreneralTreeDS\bin\Debug\net9.0\GreneralTreeDS.exe
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\022-GeneralTree\GreneralTreeDS\GreneralTreeDS\bin\Debug\net9.0\GreneralTreeDS.deps.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\022-GeneralTree\GreneralTreeDS\GreneralTreeDS\bin\Debug\net9.0\GreneralTreeDS.runtimeconfig.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\022-GeneralTree\GreneralTreeDS\GreneralTreeDS\bin\Debug\net9.0\GreneralTreeDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\022-GeneralTree\GreneralTreeDS\GreneralTreeDS\bin\Debug\net9.0\GreneralTreeDS.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\022-GeneralTree\GreneralTreeDS\GreneralTreeDS\obj\Debug\net9.0\GreneralTreeDS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\022-GeneralTree\GreneralTreeDS\GreneralTreeDS\obj\Debug\net9.0\GreneralTreeDS.AssemblyInfoInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\022-GeneralTree\GreneralTreeDS\GreneralTreeDS\obj\Debug\net9.0\GreneralTreeDS.AssemblyInfo.cs
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\022-GeneralTree\GreneralTreeDS\GreneralTreeDS\obj\Debug\net9.0\GreneralTreeDS.csproj.CoreCompileInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\022-GeneralTree\GreneralTreeDS\GreneralTreeDS\obj\Debug\net9.0\GreneralTreeDS.sourcelink.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\022-GeneralTree\GreneralTreeDS\GreneralTreeDS\obj\Debug\net9.0\GreneralTreeDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\022-GeneralTree\GreneralTreeDS\GreneralTreeDS\obj\Debug\net9.0\refint\GreneralTreeDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\022-GeneralTree\GreneralTreeDS\GreneralTreeDS\obj\Debug\net9.0\GreneralTreeDS.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\022-GeneralTree\GreneralTreeDS\GreneralTreeDS\obj\Debug\net9.0\GreneralTreeDS.genruntimeconfig.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\022-GeneralTree\GreneralTreeDS\GreneralTreeDS\obj\Debug\net9.0\ref\GreneralTreeDS.dll

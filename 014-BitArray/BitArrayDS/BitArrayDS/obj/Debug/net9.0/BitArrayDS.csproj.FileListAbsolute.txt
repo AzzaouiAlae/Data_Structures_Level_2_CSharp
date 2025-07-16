@@ -1,0 +1,15 @@
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\014-BitArray\BitArrayDS\BitArrayDS\bin\Debug\net9.0\BitArrayDS.exe
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\014-BitArray\BitArrayDS\BitArrayDS\bin\Debug\net9.0\BitArrayDS.deps.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\014-BitArray\BitArrayDS\BitArrayDS\bin\Debug\net9.0\BitArrayDS.runtimeconfig.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\014-BitArray\BitArrayDS\BitArrayDS\bin\Debug\net9.0\BitArrayDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\014-BitArray\BitArrayDS\BitArrayDS\bin\Debug\net9.0\BitArrayDS.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\014-BitArray\BitArrayDS\BitArrayDS\obj\Debug\net9.0\BitArrayDS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\014-BitArray\BitArrayDS\BitArrayDS\obj\Debug\net9.0\BitArrayDS.AssemblyInfoInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\014-BitArray\BitArrayDS\BitArrayDS\obj\Debug\net9.0\BitArrayDS.AssemblyInfo.cs
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\014-BitArray\BitArrayDS\BitArrayDS\obj\Debug\net9.0\BitArrayDS.csproj.CoreCompileInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\014-BitArray\BitArrayDS\BitArrayDS\obj\Debug\net9.0\BitArrayDS.sourcelink.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\014-BitArray\BitArrayDS\BitArrayDS\obj\Debug\net9.0\BitArrayDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\014-BitArray\BitArrayDS\BitArrayDS\obj\Debug\net9.0\refint\BitArrayDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\014-BitArray\BitArrayDS\BitArrayDS\obj\Debug\net9.0\BitArrayDS.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\014-BitArray\BitArrayDS\BitArrayDS\obj\Debug\net9.0\BitArrayDS.genruntimeconfig.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\014-BitArray\BitArrayDS\BitArrayDS\obj\Debug\net9.0\ref\BitArrayDS.dll

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\azzao\\OneDrive\\Source\\Data_Structures_Level_2_CSharp\\025-Min-Heap\\MinHeapDS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E74E5045-83B9-40C6-BBC6-AA55CAA35A51}|MinHeapDS\\MinHeapDS.csproj|c:\\users\\azzao\\onedrive\\source\\data_structures_level_2_csharp\\025-min-heap\\minheapds\\minheapds\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E74E5045-83B9-40C6-BBC6-AA55CAA35A51}|MinHeapDS\\MinHeapDS.csproj|solutionrelative:minheapds\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\azzao\\OneDrive\\Source\\Data_Structures_Level_2_CSharp\\025-Min-Heap\\MinHeapDS\\MinHeapDS\\Program.cs",
+              "RelativeDocumentMoniker": "MinHeapDS\\Program.cs",
+              "ToolTip": "C:\\Users\\azzao\\OneDrive\\Source\\Data_Structures_Level_2_CSharp\\025-Min-Heap\\MinHeapDS\\MinHeapDS\\Program.cs",
+              "RelativeToolTip": "MinHeapDS\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwFcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T11:33:08.303Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

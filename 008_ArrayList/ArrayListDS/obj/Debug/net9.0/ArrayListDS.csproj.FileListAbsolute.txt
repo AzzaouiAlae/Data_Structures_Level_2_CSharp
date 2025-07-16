@@ -1,0 +1,15 @@
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\008_ArrayList\ArrayListDS\bin\Debug\net9.0\ArrayListDS.exe
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\008_ArrayList\ArrayListDS\bin\Debug\net9.0\ArrayListDS.deps.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\008_ArrayList\ArrayListDS\bin\Debug\net9.0\ArrayListDS.runtimeconfig.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\008_ArrayList\ArrayListDS\bin\Debug\net9.0\ArrayListDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\008_ArrayList\ArrayListDS\bin\Debug\net9.0\ArrayListDS.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\008_ArrayList\ArrayListDS\obj\Debug\net9.0\ArrayListDS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\008_ArrayList\ArrayListDS\obj\Debug\net9.0\ArrayListDS.AssemblyInfoInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\008_ArrayList\ArrayListDS\obj\Debug\net9.0\ArrayListDS.AssemblyInfo.cs
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\008_ArrayList\ArrayListDS\obj\Debug\net9.0\ArrayListDS.csproj.CoreCompileInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\008_ArrayList\ArrayListDS\obj\Debug\net9.0\ArrayListDS.sourcelink.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\008_ArrayList\ArrayListDS\obj\Debug\net9.0\ArrayListDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\008_ArrayList\ArrayListDS\obj\Debug\net9.0\refint\ArrayListDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\008_ArrayList\ArrayListDS\obj\Debug\net9.0\ArrayListDS.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\008_ArrayList\ArrayListDS\obj\Debug\net9.0\ArrayListDS.genruntimeconfig.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\008_ArrayList\ArrayListDS\obj\Debug\net9.0\ref\ArrayListDS.dll

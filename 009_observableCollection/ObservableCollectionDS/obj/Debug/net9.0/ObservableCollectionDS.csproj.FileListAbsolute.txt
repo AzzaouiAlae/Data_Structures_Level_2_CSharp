@@ -1,0 +1,15 @@
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\009_observableCollection\ObservableCollectionDS\bin\Debug\net9.0\ObservableCollectionDS.exe
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\009_observableCollection\ObservableCollectionDS\bin\Debug\net9.0\ObservableCollectionDS.deps.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\009_observableCollection\ObservableCollectionDS\bin\Debug\net9.0\ObservableCollectionDS.runtimeconfig.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\009_observableCollection\ObservableCollectionDS\bin\Debug\net9.0\ObservableCollectionDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\009_observableCollection\ObservableCollectionDS\bin\Debug\net9.0\ObservableCollectionDS.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\009_observableCollection\ObservableCollectionDS\obj\Debug\net9.0\ObservableCollectionDS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\009_observableCollection\ObservableCollectionDS\obj\Debug\net9.0\ObservableCollectionDS.AssemblyInfoInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\009_observableCollection\ObservableCollectionDS\obj\Debug\net9.0\ObservableCollectionDS.AssemblyInfo.cs
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\009_observableCollection\ObservableCollectionDS\obj\Debug\net9.0\ObservableCollectionDS.csproj.CoreCompileInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\009_observableCollection\ObservableCollectionDS\obj\Debug\net9.0\ObservableCollectionDS.sourcelink.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\009_observableCollection\ObservableCollectionDS\obj\Debug\net9.0\ObservableCollectionDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\009_observableCollection\ObservableCollectionDS\obj\Debug\net9.0\refint\ObservableCollectionDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\009_observableCollection\ObservableCollectionDS\obj\Debug\net9.0\ObservableCollectionDS.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\009_observableCollection\ObservableCollectionDS\obj\Debug\net9.0\ObservableCollectionDS.genruntimeconfig.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\009_observableCollection\ObservableCollectionDS\obj\Debug\net9.0\ref\ObservableCollectionDS.dll

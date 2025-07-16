@@ -1,0 +1,15 @@
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\024-Graph\GraphDS\GraphDS\bin\Debug\net9.0\GraphDS.exe
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\024-Graph\GraphDS\GraphDS\bin\Debug\net9.0\GraphDS.deps.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\024-Graph\GraphDS\GraphDS\bin\Debug\net9.0\GraphDS.runtimeconfig.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\024-Graph\GraphDS\GraphDS\bin\Debug\net9.0\GraphDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\024-Graph\GraphDS\GraphDS\bin\Debug\net9.0\GraphDS.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\024-Graph\GraphDS\GraphDS\obj\Debug\net9.0\GraphDS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\024-Graph\GraphDS\GraphDS\obj\Debug\net9.0\GraphDS.AssemblyInfoInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\024-Graph\GraphDS\GraphDS\obj\Debug\net9.0\GraphDS.AssemblyInfo.cs
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\024-Graph\GraphDS\GraphDS\obj\Debug\net9.0\GraphDS.csproj.CoreCompileInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\024-Graph\GraphDS\GraphDS\obj\Debug\net9.0\GraphDS.sourcelink.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\024-Graph\GraphDS\GraphDS\obj\Debug\net9.0\GraphDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\024-Graph\GraphDS\GraphDS\obj\Debug\net9.0\refint\GraphDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\024-Graph\GraphDS\GraphDS\obj\Debug\net9.0\GraphDS.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\024-Graph\GraphDS\GraphDS\obj\Debug\net9.0\GraphDS.genruntimeconfig.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\024-Graph\GraphDS\GraphDS\obj\Debug\net9.0\ref\GraphDS.dll

@@ -1,0 +1,15 @@
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\013-Array\ArrayDS\ArrayDS\bin\Debug\net9.0\ArrayDS.exe
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\013-Array\ArrayDS\ArrayDS\bin\Debug\net9.0\ArrayDS.deps.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\013-Array\ArrayDS\ArrayDS\bin\Debug\net9.0\ArrayDS.runtimeconfig.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\013-Array\ArrayDS\ArrayDS\bin\Debug\net9.0\ArrayDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\013-Array\ArrayDS\ArrayDS\bin\Debug\net9.0\ArrayDS.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\013-Array\ArrayDS\ArrayDS\obj\Debug\net9.0\ArrayDS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\013-Array\ArrayDS\ArrayDS\obj\Debug\net9.0\ArrayDS.AssemblyInfoInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\013-Array\ArrayDS\ArrayDS\obj\Debug\net9.0\ArrayDS.AssemblyInfo.cs
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\013-Array\ArrayDS\ArrayDS\obj\Debug\net9.0\ArrayDS.csproj.CoreCompileInputs.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\013-Array\ArrayDS\ArrayDS\obj\Debug\net9.0\ArrayDS.sourcelink.json
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\013-Array\ArrayDS\ArrayDS\obj\Debug\net9.0\ArrayDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\013-Array\ArrayDS\ArrayDS\obj\Debug\net9.0\refint\ArrayDS.dll
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\013-Array\ArrayDS\ArrayDS\obj\Debug\net9.0\ArrayDS.pdb
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\013-Array\ArrayDS\ArrayDS\obj\Debug\net9.0\ArrayDS.genruntimeconfig.cache
+C:\Users\azzao\OneDrive\Source\Data_Structures_Level_2_CSharp\013-Array\ArrayDS\ArrayDS\obj\Debug\net9.0\ref\ArrayDS.dll
